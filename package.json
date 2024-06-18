@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "mkdir -p dist/css && tailwindcss -i ./input.css -o ./dist/css/main.css && cp index.html dist/index.html",
-    "watch": "mkdir -p dist/css && tailwindcss -i ./input.css -o ./dist/css/main.css --watch",
+    "watch": "tailwindcss -i ./input.css -o ./dist/css/main.css --watch",
     "start": "serve dist"
   },
   "keywords": [],
